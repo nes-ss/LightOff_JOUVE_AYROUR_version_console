@@ -8,6 +8,6 @@ package lightoff_jouve_ayrour_version_console;
  *
  * @author ayrou
  */
-public class GrilleDeCellules {
+public class GrilleDeJeu {
     
 }
