@@ -8,5 +8,5 @@
  * @author ayrou
  */
 public class LightOff {
-    
+    main(r)
 }
