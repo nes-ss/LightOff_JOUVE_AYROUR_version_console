@@ -13,7 +13,7 @@ import javax.swing.JButton;
  * @author ayrou
  */
 public class CelluleGraphique extends JButton {
-
+// test de comment 
     int largeur; // largeur en pixel de la cellule
     int hauteur; // hauteur en pixel de la cellule
     CelluleLumineuse celluleLumineuseAssociee;
