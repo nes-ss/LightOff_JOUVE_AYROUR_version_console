@@ -204,7 +204,7 @@ public class DebutPartie1 extends javax.swing.JFrame {
         jLabel7.setText("fenêtre aux alentours rallumant ainsi certaines qui étaient éteintes. ");
 
         jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel8.setText("Il faut donc être très malin pour réussir à éteindre tout !");
+        jLabel8.setText("Il faut donc être très malin pour réussir à tout éteindre !");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
