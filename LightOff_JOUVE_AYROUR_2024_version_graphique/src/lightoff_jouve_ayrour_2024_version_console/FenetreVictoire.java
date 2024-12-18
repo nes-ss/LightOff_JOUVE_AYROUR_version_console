@@ -35,7 +35,7 @@ public class FenetreVictoire extends javax.swing.JFrame {
             }
         });
 
-        AfficherCoups.setText("Tu as gagné en  " + nbCoups + " Coups ");
+        AfficherCoups.setText("Tu as gagné en  " + nbCoups + " coups !! ");
 
     }
 
