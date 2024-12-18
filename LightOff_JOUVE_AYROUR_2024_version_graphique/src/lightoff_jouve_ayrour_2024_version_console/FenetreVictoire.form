@@ -68,7 +68,10 @@
     <Component class="javax.swing.JButton" name="BouttonRelancer">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Segoe UI Black" size="24" style="3"/>
+          <Font name="Segoe UI Semibold" size="24" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="99" red="ff" type="rgb"/>
         </Property>
         <Property name="text" type="java.lang.String" value="RELANCER"/>
       </Properties>
@@ -81,7 +84,10 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Segoe UI Black" size="18" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Tu as gagn&#xe9; en : .... coups"/>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="99" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tu as gagn&#xe9; en : .... coups !"/>
       </Properties>
     </Component>
   </SubComponents>

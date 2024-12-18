@@ -58,7 +58,8 @@ public class FenetreVictoire extends javax.swing.JFrame {
         jLabel1.setBackground(new java.awt.Color(255, 204, 204));
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\ambre\\Desktop\\YOU WIN.png")); // NOI18N
 
-        BouttonRelancer.setFont(new java.awt.Font("Segoe UI Black", 3, 24)); // NOI18N
+        BouttonRelancer.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
+        BouttonRelancer.setForeground(new java.awt.Color(255, 153, 204));
         BouttonRelancer.setText("RELANCER");
         BouttonRelancer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -67,7 +68,8 @@ public class FenetreVictoire extends javax.swing.JFrame {
         });
 
         AfficherCoups.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
-        AfficherCoups.setText("Tu as gagné en : .... coups");
+        AfficherCoups.setForeground(new java.awt.Color(255, 153, 204));
+        AfficherCoups.setText("Tu as gagné en : .... coups !");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
