@@ -53,10 +53,12 @@ public class FenetreVictoire extends javax.swing.JFrame {
         AfficherCoups = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 204, 204));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lightoff_jouve_ayrour_2024_version_console/imagewin.png"))); // NOI18N
 
         BouttonRelancer.setFont(new java.awt.Font("Segoe UI", 3, 24)); // NOI18N
+        BouttonRelancer.setForeground(new java.awt.Color(255, 204, 204));
         BouttonRelancer.setText("RELANCER");
         BouttonRelancer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -65,6 +67,7 @@ public class FenetreVictoire extends javax.swing.JFrame {
         });
 
         AfficherCoups.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        AfficherCoups.setForeground(new java.awt.Color(255, 204, 204));
         AfficherCoups.setText("Tu as gagné en : .... coups");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
