@@ -55,10 +55,10 @@ public class FenetreVictoire extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 204, 204));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lightoff_jouve_ayrour_2024_version_console/imagewin.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\ambre\\Desktop\\YOU WIN.png")); // NOI18N
 
-        BouttonRelancer.setFont(new java.awt.Font("Segoe UI", 3, 24)); // NOI18N
-        BouttonRelancer.setForeground(new java.awt.Color(255, 204, 204));
+        BouttonRelancer.setFont(new java.awt.Font("Segoe UI Black", 3, 24)); // NOI18N
+        BouttonRelancer.setForeground(new java.awt.Color(255, 102, 204));
         BouttonRelancer.setText("RELANCER");
         BouttonRelancer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -66,8 +66,8 @@ public class FenetreVictoire extends javax.swing.JFrame {
             }
         });
 
-        AfficherCoups.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        AfficherCoups.setForeground(new java.awt.Color(255, 204, 204));
+        AfficherCoups.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
+        AfficherCoups.setForeground(new java.awt.Color(255, 102, 204));
         AfficherCoups.setText("Tu as gagné en : .... coups");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -75,24 +75,24 @@ public class FenetreVictoire extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 762, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(110, 110, 110)
+                .addGap(12, 12, 12)
                 .addComponent(AfficherCoups, javax.swing.GroupLayout.PREFERRED_SIZE, 303, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(39, 39, 39)
+                .addGap(69, 69, 69)
                 .addComponent(BouttonRelancer)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 695, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 98, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jLabel1)
-                .addGap(21, 21, 21)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(AfficherCoups)
-                    .addComponent(BouttonRelancer))
-                .addContainerGap(27, Short.MAX_VALUE))
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 702, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(BouttonRelancer)
+                    .addComponent(AfficherCoups))
+                .addContainerGap(198, Short.MAX_VALUE))
         );
 
         pack();
